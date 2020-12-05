@@ -1,0 +1,71 @@
+#graphcontainer > div {
+    height:100%;
+    display: flex; 
+    align-content: center;
+    justify-content: center;
+    border: 0px solid red;
+}
+
+div.Select-control {
+    width: 100% !important;
+}
+
+#clickdata > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 5px;
+}
+
+
+#clickdata table {
+    width: 100%;
+    display: table;
+    border: 1px solid lightgrey;
+    margin-top: 10px;
+    background-color: f8f9fa;
+    box-shadow: 5px 6px 20px lightgrey
+}
+
+#clickdata table > thead th{
+    display: table-cell;
+    border: 1px solid lightgrey;
+    color: whitesmoke;
+    padding: 2px 8px;
+    background-color: #2FA4E7;
+}
+
+#clickdata table > tbody td{
+    display: table-cell;
+    border: 1px solid lightgrey;
+    padding: 2px 8px;
+}
+
+#clickdata table > tbody td:nth-child(1){
+    background-color: whitesmoke;
+    color: #033C73;
+}
+
+#score {
+    width: 100%;
+    padding: 10px;
+    box-shadow: 5px 6px 10px lightgrey
+}
+
+#score > ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    border: 0px solid red;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: row wrap;
+} 
+
+#score > ul > li {
+    width: 50%
+}
+
